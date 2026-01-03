@@ -4,7 +4,7 @@
 https://veefyed-my.sharepoint.com/:b:/r/personal/esme_antwi_veefyed_com/Documents/Veefyed%20Senior%20Data%20Analyst%20Task.pdf?csf=1&web=1&e=2TJJTM
 
 
-## Day 1 Deliverables
+## Task 1 Deliverables
 1. Csv file - products.csv
 2. Script file - scrape_products.ipynb
 3. Tools Used
@@ -30,3 +30,12 @@ https://veefyed-my.sharepoint.com/:b:/r/personal/esme_antwi_veefyed_com/Document
     Step 1: I created a dictionary to store the initial product retrieval from the cleansing products page.
     Step 2: I made individual requests to each product url and updated the dictionary to include missing details from step 1.
     Step 3: Utilized the csv module to persist the dictionary data into a csv file.
+
+## Task 2 Deliverables
+1. Csv file - enriched_products.csv
+2. Script file - enrich_products.ipynb
+3. #### How the API was used
+    - Created a programmable search engine and retrieved an API key.
+    - Created a google_search method for making single queries.
+    - Picked 10 unique brands from products.csv.
+    - Created an enrichment helper for retrieving, official product pages, country of origins, and additional descriptions.
